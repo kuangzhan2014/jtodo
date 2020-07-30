@@ -40,7 +40,7 @@ const config={
                         options:{
                             limit:1024,
                             name:'[name]-aaa.[ext]',
-                            outputPath:'assets/images'
+                            // outputPath:'assets/images'
                         }
                     }
                 ]
