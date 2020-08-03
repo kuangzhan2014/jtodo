@@ -1,0 +1,13 @@
+{
+  "extends": ["standard", "plugin:vue/recommended"],
+  "plugins": ["html", "import", "vue"],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "no-new": "off",
+    "prefer-const": "off",
+    "indent": "off",
+    "comma-dangle": "off"
+  }
+}
