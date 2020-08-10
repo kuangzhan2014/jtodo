@@ -9,7 +9,7 @@ new Vue({
   // `,
   template: `
     <div
-      :class="[{ active: isActive }]"
+      :class="[{ active: !isActive }]"
       :style="[styles, styles2]"
     >
       <p>{{getJoinedArr(arr)}}</p>

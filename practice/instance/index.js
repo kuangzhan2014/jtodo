@@ -53,11 +53,11 @@ setInterval(() => {
 // }, 2000)
 
 // app.$once('test', (a, b) => {
-//   console.log(`test emited ${1} ${b}`)
+//   console.log(`test emited ${a} ${b}`)
 // })
 
 // setInterval(() => {
-//   app.$emit('test', 1, 2)
+//   app.$emit('test', 2, 3)
 // }, 1000)
 
 // app.$forceUpdate()

@@ -8,6 +8,20 @@
     "no-new": "off",
     "prefer-const": "off",
     "indent": "off",
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "space-before-function-paren": 0,
+    "vue/html-self-closing": ["error", {
+      "html": {
+        "void": "never",
+        "normal": "any",
+        "component": "any"
+      },
+      "vue/no-parsing-error": [2, {
+        "x-invalid-end-tag": false
+      }],
+      "svg": "always",
+
+      "math": "always"
+    }]
   }
 }
